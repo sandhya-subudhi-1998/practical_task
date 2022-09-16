@@ -8,7 +8,7 @@ class HeadTail extends Component{
     constructor(props){
       super(props)
       this.state={
-        dropdownValue:['Select Value','A','B'],
+        dropdownValue:['Select Value','H','T'],
         value:'',
         result:[],
         lastItem:''
@@ -41,8 +41,8 @@ class HeadTail extends Component{
         id="dropdown-menu-align-right"
         onSelect={this.handleSelect}
           >
-                <Dropdown.Item eventKey="A">A</Dropdown.Item>
-                <Dropdown.Item eventKey="B">B</Dropdown.Item>
+                <Dropdown.Item eventKey="H">H</Dropdown.Item>
+                <Dropdown.Item eventKey="T">T</Dropdown.Item>
         </DropdownButton>
         {/* <h4>You selected {value}</h4> */}
         <Button style={{marginLeft:'50px'}} onClick={()=>{
